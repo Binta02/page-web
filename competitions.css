@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap'); 
+body{ 
+  margin: 10px 80px; 
+  font-family: 'Noto Sans JP', sans-serif; 
+  background-clip: taemin.mp4;
+} 
+
+body{
+  background: #EEF9FA;
+  background-size: cover;
+  color: #000;
+/* couleur de fond*/
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.onglets li {
+    float: left;
+    width: 107px;
+
+}
+
+nav .onglets{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+.onglets li a:link, .onglets li a:visited {
+    display: block;
+    background: #fff;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.onglets li a:hover {background-color: #fff;}
+.onglets li a:active {background-color: #fff;}
+
+.onglets .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
+}
+
+.onglets .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+
+}
+
+.onglets .sousmenu li a:link, .onglets li a:visited {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+.onglets li a:hover {
+    background-color: #199BD2;
+}
+
+.onglets .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.onglets li:hover .sousmenu {
+    display: block;
+}
+header{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://www.jeuxmamuse.fr/wp-content/uploads/2018/07/backgammon_board_game_cube_strategy_games_suitcase_game_board-1264996.jpg-1024x574.jpg);
+    background-size: cover;
+    padding: 60px;
+}
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display',sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+nav { 
+
+  display:flex; 
+
+  flex-wrap:wrap; 
+
+  justify-content:space-between; 
+
+} 
+
+nav h1{ 
+
+  font-family: 'Crimson Text', serif; 
+
+  font-size: 30px; 
+
+} 
+
+nav .onglets{ 
+
+  margin-top: 35px; 
+
+} 
+
+nav .onglets a{ 
+
+  text-decoration: none; 
+
+  color:#7f7e7e; 
+
+  margin-right: 10px; 
+
+} 
+
+.articles{ 
+
+  margin-top: 30px; 
+
+} 
+.articles .article{ 
+
+  display: flex; 
+
+  flex-wrap:wrap; 
+
+  margin-bottom: 30px; 
+} 
+
+.articles .article .left img{ 
+
+  height: 400px; 
+
+  width: 400px; 
+} 
+
+.articles .article .right { 
+
+  margin-left: 50px; 
+  max-width: 50%;
+  font-size: 20px;
+
+} 
+ .articles .article .lef img{ 
+
+  height: 500px;
+  margin-left: 700px;
+  width: 500px; 
+  padding-top: 90px;
+  display: all;
+} 
+
+.articles .article .righ { 
+
+  max-width: 50%;
+  font-size: 19px;
+  margin-right: 600px;
+  margin-top: -380px;
+  display: all;
+} 
+
+.articles .article .right p.date{ 
+
+  color: #7f7e7e; 
+
+} 
+
+.articles .article .right p.description{ 
+
+  color: #2d2d2d; 
+
+} 
+footer { 
+
+  margin-top: 80px; 
+  display: flex; 
+  flex-wrap:wrap; 
+  justify-content: space-between; 
+  background-color: #000;
+  color: #f1f1f1; 
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  line-height: 10px;
+
+} 
+footer h1{
+  text-align: left;
+  font-size: 30px;
+}
+footer p{
+  text-align: right;
+}
+
+footer .col1 .reseaux{
+    width: 316px;
+    color: #555;
+    text-align: right;
+    padding-left: 860px;
+}
+footer .social-media{ 
+
+  display:flex; 
+
+} 
+
+footer .social-media p{ 
+  font-size: 18px; 
+  margin-right: 20px; 
+} 
+
+@media screen and (max-width: 700px){ 
+
+  body{ 
+
+    margin: 10px 20px; 
+    padding: 100px;
+    flex-direction: column;
+    width: 95%;
+  } 
+
+  nav .onglets{ 
+
+    margin-top: -10px; 
+  } 
+  .articles .article .left img{ 
+
+    height: 100%; 
+
+    width:100%; 
+  } 
+  
+
+
+  .articles .article .right{ 
+
+    margin: 0px; 
+
+    max-width: 100%; 
+
+  } 
+
+  footer .social-media{ 
+
+    margin-top: -20px; 
+
+  } 
+
+
+} 
